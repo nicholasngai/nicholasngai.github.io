@@ -1,0 +1,3 @@
+[submodule "subdir"]
+	path = subdir
+	url = https://github.com/nicholasngai/subdir.git
