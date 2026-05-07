@@ -7,8 +7,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Redirecting to ngai.me...</title>
-    <meta http-equiv="refresh" content="0; url=https://ngai.me{{ page.url }}" />
-    <link rel="canonical" href="https://ngai.me{{ page.url }}" />
+    <script type="text/javascript">
+      window.location.replace(`https://ngai.me${window.location.pathname}`);
+    </script>
   </head>
-  <body></body>
+  <body>
+    Redirecting to ngai.me...
+  </body>
 </html>
